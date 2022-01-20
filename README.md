@@ -33,7 +33,7 @@ you can download it from this [link](https://developer.nvidia.com/cuda-toolkit)
 
 ![](homepage.jpeg)
 
-> Image You are looking at the start of code is by default input named as dog.jpg
+> Image You are looking at the start of code is by default input named as catsanddogs.jpg
 
 *Selection of the image input proceeds to result display on page itself with output images and tags of objects detected*
 
