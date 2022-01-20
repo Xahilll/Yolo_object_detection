@@ -31,13 +31,13 @@ you can download it from this [link](https://developer.nvidia.com/cuda-toolkit)
  
  **TIP: You can assess the local host either by Local URL or Network URL.**
 
-![](homepage.jpeg)
+![](https://drive.google.com/file/d/11QT94Qo7B-m1cIqkot_5okC2ZxQBm3aG/view?usp=sharing)
 
 > Image You are looking at the start of code is by default input named as catsanddogs.jpg
 
 *Selection of the image input proceeds to result display on page itself with output images and tags of objects detected*
 
-![](output.png)
+![](https://drive.google.com/file/d/1-WOXsrRxKJ7f0kgzbkJ3-9vC6yzDjory/view?usp=sharing)
 
 >TIP: The directory of input image and weights file should be same.
 
