@@ -31,7 +31,7 @@ you can download it from this [link](https://developer.nvidia.com/cuda-toolkit)
  
  **TIP: You can assess the local host either by Local URL or Network URL.**
 
-![](/image/homepage.jpeg)
+![](/images/homepage.jpeg)
 
 > Image You are looking at the start of code is by default input named as catsanddogs.jpg
 
