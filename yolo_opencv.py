@@ -4,12 +4,9 @@ import cv2
 import argparse
 import numpy as np
 import streamlit as st
-import requests
+import os
 
-r = requests.get('https://drive.google.com/file/d/1RsQnPpiOu9J9Ohl2iaVPoRyzzI3muJGm/view?usp=sharing')
-
-with open('yolov3.weights', 'wb') as f:
-    f.write(r.content)
+os.system('wget https://drive.google.com/file/d/1RsQnPpiOu9J9Ohl2iaVPoRyzzI3muJGm/view?usp=sharing')
 
 # ap = argparse.ArgumentParser()
 # ap.add_argument('-i', '--image', required=True,
