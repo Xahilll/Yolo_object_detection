@@ -4,9 +4,6 @@ import cv2
 import argparse
 import numpy as np
 import streamlit as st
-import os
-
-os.system('wget https://drive.google.com/file/d/1RsQnPpiOu9J9Ohl2iaVPoRyzzI3muJGm/view?usp=sharing')
 
 # ap = argparse.ArgumentParser()
 # ap.add_argument('-i', '--image', required=True,
@@ -52,7 +49,7 @@ with open('yolov3.txt' , 'r') as f:
 
 COLORS = np.random.uniform(0, 255, size=(len(classes), 3))
 
-net = cv2.dnn.readNetFromDarknet('yolov3.weights', 'yolov3.cfg')
+net = cv2.dnn.readNet('yolov3.weights', 'yolov3.cfg')
 
 blob = cv2.dnn.blobFromImage(image, scale, (416, 416), (0, 0, 0), True, crop=False)
 
